@@ -72,7 +72,7 @@ public class SimpleBankingApp {
 				"Account #", "username_of_account_holder", "type", "opening_date", "Balance"));
 		System.out.println("--------------------------------------------------------------------------------");
 		for  (int i = 0; i < accounts.size(); i++) 
-            System.out.println(accounts.get(i).toString() + "| £" + getBalance(accounts.get(i).getAccount_number()));	
+            System.out.println(accounts.get(i).toString() + "| £" + getBalance(accounts.get(i).getAccount_number()));
 		System.out.println();
 	}
 	
